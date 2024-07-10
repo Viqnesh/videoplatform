@@ -1,0 +1,114 @@
+.header {
+    display: flex;
+
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+.title-logo {
+    margin-left: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lecteur {
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.played-video {
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+}
+.card-genre {
+    background-size: cover;
+    resize: both;
+    filter: brightness(0.5);
+}
+.bg-purp {
+    background-color: #7431FA;
+    height: 60px;
+}
+.icon-genre {
+    width: 130px;
+    margin: 14% 23% 14% 23%;
+    z-index: 200;
+    position: relative;
+    filter: brightness(1);
+    filter: invert(1);
+}
+.suggestions {
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.profile-tabs {
+    width: 35%;
+    display: flex;
+    margin-left: 14%;
+    justify-content: center;
+}
+.comment-section {
+    display: flex;
+    margin-left: 16%;
+    justify-content: center;
+}
+.profile-tabs h6 {
+    margin-left: 5%;
+}
+.profile-left {
+    text-align: left;
+}
+.profile-details {
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 4%;
+}
+.video-title {
+    margin-left: 2%;
+}
+.video-head {
+    text-decoration: none;
+    color: black;
+}
+.profile-banner {
+    background-image: url('images/cat/mbappe.jpg');
+    width: 100%;
+    height: 250px;
+}
+.profile-pic {
+    background-image: url('images/cat/movie.webp');
+    border: 5px solid white;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-size: cover;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+.btn-tabs {
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15%;
+    border-radius: 18px;
+}
+.desc-video {
+    width: 85%;
+    margin-left: 15%;
+    margin-right: auto;
+}
+.watch-time {
+    margin-left: 2%;
+    font-weight: 500;
+}
+.watch-vues {
+    font-weight: 500;
+}
+.watch-desc {
+    text-align: initial;
+    margin-left: 2%;
+    border-radius: 18px;
+}
